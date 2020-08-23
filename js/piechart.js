@@ -12,8 +12,8 @@ jQuery(window).load(function() {
             ['Task', 'Percentage'],
             ['Uniswap', 65],
             ['Presale', 20],
-            ['Teamshare', 7],
-            ['Marketing', 8]
+            ['Teamshare', 0],
+            ['Marketing', 15]
             
         ]);
 
