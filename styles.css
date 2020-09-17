@@ -295,7 +295,7 @@ header{
 .global-headline .asterisk{
   color: white;
   margin: 2.4rem 0;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 .headline-dark{
   color: black;
@@ -469,6 +469,22 @@ footer{
   color: var(--secondary-font-color);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*media tag*/
 @media screen and (min-width: 900px){
 section{
@@ -626,6 +642,12 @@ section{
   color: black;
   border-radius: .6rem;
   transition: background-color .5s;
+}
+
+.global-headline .asterisk{
+  color: white;
+  margin: 2.4rem 0;
+  font-size: 2rem;
 }
 
 .about{
