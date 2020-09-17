@@ -23,7 +23,7 @@ html{
   font-size: 10px;
   color: var(--body-font-color);
   scroll-behavior: smooth;
-  background-image: url('https://i.ibb.co/c3vbfd1/background.png');
+  background-image: url('https://github.com/Caerusofficial/Caerustoken/blob/master/images/background-2.png?raw=true');
 }
 
 body{
@@ -172,7 +172,7 @@ header{
 }
 
 .sub-headline{
-  font-size: 10rem;
+  font-size: 8rem;
   font-family: var(--secondary-font);
   color: white;
   font-weight: 100;
@@ -184,12 +184,12 @@ header{
 }
 
 .first-letter{
-  font-size: 25rem;
+  font-size: 10rem;
 }
 
 .headline{
   color: white;
-  font-size: 11rem;
+  font-size: 7rem;
   font-family: var(--main-font);
   text-transform: uppercase;
   font-weight: 900;
@@ -205,7 +205,7 @@ header{
 }
 
 .line{
-  max-width: 15rem;
+  max-width: 10rem;
   height: .25rem;
   background-color: white;
   position: relative;
@@ -237,7 +237,7 @@ header{
 }
 
 .asterisk{
-  font-size: 2rem;
+  font-size: 1rem;
   color: black;
   margin: 0 2rem;
   animation: spin .5s forwards;
@@ -253,7 +253,7 @@ header{
 
 .headline-description h5{
   color: white;
-  font-size: 3rem;
+  font-size: 1.9rem;
   font-weight: 100;
   text-transform: uppercase;
   margin-bottom: 1.2rem;
@@ -269,7 +269,7 @@ header{
 }
 
 .cta-btn{
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: white;
   padding: .9rem 1.8rem;
   color: black;
@@ -523,7 +523,109 @@ section{
 }
 
 .sub-headline{
-font-size: 10rem;
+  font-size: 10rem;
+  font-family: var(--secondary-font);
+  color: white;
+  font-weight: 100;
+  line-height: .45;
+  letter-spacing: 2px;
+  opacity: 0;
+  animation: fadeup 1s forwards;
+  animation-delay: .5s;
+}
+
+.first-letter{
+  font-size: 25rem;
+}
+
+.headline{
+  color: white;
+  font-size: 11rem;
+  font-family: var(--main-font);
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: .2rem;
+  margin-right: -.5rem;
+  animation: scale 1s forwards;
+}
+
+.seperator{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line{
+  max-width: 15rem;
+  height: .25rem;
+  background-color: white;
+  position: relative;
+  width: 100%;
+  animation: pop 2s forwards;
+  animation-delay: .9s;
+  opacity: 0;
+}
+
+.line-right::before, .line-left::before{
+  content: ' ';
+  position: absolute;
+  border: .6rem solid transparent;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: pop .5s forwards;
+  animation-delay: 1.2s;
+  opacity: 0;
+}
+
+.line-right::before{
+  border-right-color: white;
+  right: 0;
+}
+
+.line-left::before{
+  border-left-color: white;
+  left: 0;
+}
+
+.asterisk{
+  font-size: 2rem;
+  color: black;
+  margin: 0 2rem;
+  animation: spin .5s forwards;
+  animation-delay: .7s;
+  opacity: 0;
+}
+
+.single-animation{
+  opacity: 0;
+  animation: fadeup 1s forwards;
+  animation-delay: 1s;
+}
+
+.headline-description h5{
+  color: white;
+  font-size: 3rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+  letter-spacing: 1px;
+  margin-right: -3px;
+}
+
+.btn{
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: -2px;
+}
+
+.cta-btn{
+  font-size: 2rem;
+  background-color: white;
+  padding: .9rem 1.8rem;
+  color: black;
+  border-radius: .6rem;
+  transition: background-color .5s;
 }
 
 .about{
