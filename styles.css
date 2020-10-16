@@ -274,6 +274,20 @@ header{
   padding: .9rem 1.8rem;
   margin: 0.3rem 0;
 
+
+
+  color: black;
+  border-radius: .6rem;
+  transition: background-color .5s;
+}
+.cta-btn-1{
+  font-size: 1.5rem;
+  background-color: grey;
+  padding: .9rem 1.8rem;
+  margin: 0.3rem 0;
+
+
+
   color: black;
   border-radius: .6rem;
   transition: background-color .5s;
@@ -281,6 +295,10 @@ header{
 
 .cta-btn:hover, .cta-btn:focus{
   color: white;
+  background-color: var(--secondary-font-color);
+}
+.cta-btn-1:hover, .cta-btn-1:focus{
+  color: grey;
   background-color: var(--secondary-font-color);
 }
 
